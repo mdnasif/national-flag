@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.green{
+    width: 600px;
+    height: 300px;
+    background-color: #006A4D;
+    position: relative;
+}
+.red{
+    width: 180px;
+    height: 180px;
+    background-color: #F4253F;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+.social-icons{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 50px 0px;
+}
+.social-icons li{
+    list-style: none;
+   display: inline-block;
+}
+.social-icons li a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 100%;
+    border: 3px solid #000;
+    background-color: black;
+    font-size: 30px;
+    margin: 0px 10px;
+    color: #fff;
+    transition: 1s;
+}
+.social-icons li a:hover{
+    background: transparent;
+    color: #000;
+    border-radius: #000;
+}
+.social-icons li a:focus{
+    background-color: transparent;
+    color: #000;
+    border-radius: #000;
+}
+.green .fb-btn {
+    width: 168px;
+    position: fixed;
+    top: 60%;
+    right:-115px; 
+    transition: 1s;
+}
+.green .fb-btn:hover{
+    right: -2px;
+}
+.green .twt-btn{
+    width: 168px;
+    position: fixed;
+    top: 68%;
+    right:-115px; 
+    transition: 1s;
+}
+.green .twt-btn:hover{
+    right: -2px;
+}
+.green .lnkdn-btn{
+    width: 168px;
+    position: fixed;
+    top: 76%;
+    right:-115px; 
+    transition: 1s;
+}
+.green .lnkdn-btn:hover{
+    right: -2px;
+}
+.green .whsapp-btn{
+    width: 168px;
+    position: fixed;
+    top: 84%;
+    right:-115px; 
+    transition: 1s;
+}
+.green .whsapp-btn:hover{
+    right: -2px;
+}
+.green .tlegrm-btn{
+    width: 200px;
+    position: fixed;
+    top: 92%;
+    right:-149px; 
+    transition: 1s;
+}
+.green .tlegrm-btn:hover{
+    right: -2px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 10px 0px;
+
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+}
